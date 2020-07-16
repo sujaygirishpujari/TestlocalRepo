@@ -1,12 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Its new Page</title>
+<title>Yahoo!!</title>
 </head>
 <body>
-I know its hard to believe
+	<p><font color="red">${errorMessage}</font></p>
+	<form action="/login.do" method="POST">
+		Name : <input name="name" type="text" /> Password : <input name="password" type="password" /> <input type="submit" />
+	</form>
 </body>
 </html>
