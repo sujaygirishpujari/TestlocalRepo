@@ -1,4 +1,4 @@
-package webapp;
+package com.sujay.in28minutes.jee;
 
 import java.io.IOException;
 
