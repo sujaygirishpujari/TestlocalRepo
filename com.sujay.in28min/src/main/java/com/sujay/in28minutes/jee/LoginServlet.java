@@ -27,6 +27,7 @@ public class LoginServlet extends HttpServlet {
 		String password = request.getParameter("password");
 
 		boolean isValidUser = service.validateUser(name, password);
+		
 
 		if (isValidUser) {
 			request.setAttribute("name", name);
